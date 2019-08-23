@@ -1,30 +1,19 @@
+# This is Git's per-user configuration file.
 [user]
-  name = Jeff Geerling
-  email = geerlingguy@mac.com
-[core]
-  editor = vi
-  excludesfile = ~/.gitignore
-  autocrlf = input
-[color]
-  branch = auto
-  diff = auto
-  interactive = auto
-  status = auto
-[web]
-  browser = google-chrome
-[credential]
-  helper = osxkeychain
+# Please adapt and uncomment the following lines:
+	name = Stanislas Bernard
+	email = bernardstanislas@gmail.com
+	signingkey = C42674A719CB03B089D322EE5AD491FB7CFFBA2C
 [push]
-  default = simple
-[merge]
-  tool = kdiff3
-[difftool]
-  prompt = false
+	default = current
 [alias]
-  c = commit
-  ca = commit -a
-  cm = commit -m
-  cam = commit -am
-  d = diff
-  dc = diff --cached
-  l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
+	co = checkout
+	br = branch
+	st = status
+	ci = commit
+[core]
+	ignorecase = false
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
