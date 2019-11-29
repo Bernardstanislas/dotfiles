@@ -134,3 +134,8 @@ export LC_ALL=en_US.UTF-8
 # Add pip3 isntalled packages to the path
 
 export PATH=~/Library/Python/3.7/bin:$PATH
+
+# Add NVM to the path
+
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
