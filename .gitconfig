@@ -14,6 +14,6 @@
 [core]
 	ignorecase = false
 [commit]
-	gpgsign = true
+	gpgsign = false
 [gpg]
 	program = gpg
